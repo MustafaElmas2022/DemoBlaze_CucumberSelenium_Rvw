@@ -17,7 +17,7 @@ public class Purchase_StepDefs {
 
     @When("the user adds {string} from {string}")
     public void the_user_adds_from(String product, String category) {
-        productPage.addProduct_Method(category,product);
+            productPage.addProduct_Method(category,product);
     }
 
     @When("the user removes {string} from cart")
