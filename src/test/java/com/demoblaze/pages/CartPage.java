@@ -1,4 +1,5 @@
 package com.demoblaze.pages;
+
 import com.demoblaze.utulities.BrowserUtils;
 import com.demoblaze.utulities.Driver;
 import com.github.javafaker.Faker;
@@ -90,7 +91,7 @@ public class CartPage extends BasePage{
 
         //String array1=confirmationArray[1].split(" ")[1];
         actualAmount=Integer.parseInt(confirmationArray[1].split(" ")[1]);
-        //  System.out.println("array1 = " + array1);
+      //  System.out.println("array1 = " + array1);
         System.out.println("amount = " + actualAmount);
 
 
