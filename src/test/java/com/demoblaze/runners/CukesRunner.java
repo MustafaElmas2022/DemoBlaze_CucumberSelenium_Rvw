@@ -1,5 +1,6 @@
 package com.demoblaze.runners;
 
+
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
@@ -18,9 +19,12 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",
         glue = "com/demoblaze/step_definitions",
         dryRun = false,
-        tags = "@loginNegative"
+        tags = "@wip"
 
 
 )
+
+
 public class CukesRunner {
+
 }
